@@ -148,7 +148,7 @@ If you test out a query for ``brown fo'' by using ((("partial matching", "index 
 
 [source,js]
 --------------------------------------------------
-GET /my_index/my_type/_search
+POST /my_index/my_type/_search
 {
     "query": {
         "match": {
